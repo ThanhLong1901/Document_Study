@@ -1,0 +1,81 @@
+1. If all three top-level elements occur in a source file, they must appear in 
+which order ?
+
+- Package declaration, imports, class/ interface/enum definitions.
+
+2. Select the most correct statement 
+A. An interface may be declared as public, protected or private
+B. An interface may be declared as public, protected, private or abstract
+C. An interface may be declared as public or abstract
+D. An interface may be declared as public or protected 
+// C
+An interface may be declared as public
+
+3. In order to use the TreeSet class, the class that describes elements 
+must implement the ... interface
+- java.lang.comparable 
+// comparable tra 
+
+4. What is the difference between class and object 
+
+-  a class is a template for object and an object is an instance of a class
+
+5. myarray length;
+
+6 . class Test extends A implements X,Y ( ) 
+extends 1 class và có thể implements nhiều
+
+
+7.whenever a method does not want to handle exceptions using the try block, the ... is used.
+- throws
+
+-public class Test1{ 
+   public float aMethod(float a, float b){
+   }
+    ...
+}
+- public float aMethod(float x, float y) {}
+
+- Constructors can only have a primitive return type
+
+8. suppose a class has public visibility. In this class we define a protected method. 
+which of the folowing statements is correct? 
+- this method a accessible from within the class itself and from within all classes defined 
+in the same package as the class itself
+
+- public int amethod(int z) {}
+
+
+1. public class Test extends Base {
+2. public Test(int j) {
+3. }
+4. public Test(int j, int k) {
+5. super(j, k);
+6. }
+7. }  
+- Base() {}  // Base(int j, int k) {}
+
+9. The process of identifying conmmon features of object and methods is
+- Abstraction
+
+10. What interfaces can be implemented in order to create a class that be serialized ?
+- Have the class declare that it implements java.io.Serializable. 
+There are no methods in the interface.
+- Have the class declare that it implements java.io.Externalizable, 
+which defines two methods: readExternal and writeExternal
+
+11.allow you to organize your classes into smaller units and make it easy to locate and use the appropriate
+- Package
+
+12.Which of these stream contains the classes which can work on character stream
+-Character Stream
+
+Which of the following may appear on the right-hand side of an instanceof operator? (Choose all that apply.) 
+ A class
+ An interface
+
+Which of the following may appear on the left-hand side of an instanceof operator?
+ A reference
+
+
+
