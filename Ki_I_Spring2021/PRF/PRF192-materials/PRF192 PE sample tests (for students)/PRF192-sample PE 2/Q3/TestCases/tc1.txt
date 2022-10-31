@@ -1,0 +1,11 @@
+INPUT:
+1
+good morning sir how are you
+OUTPUT:
+you are how sir morning good
+REMOVE_SPACES:
+YES
+CASE_SENSITIVE:
+YES
+MARK:
+1
